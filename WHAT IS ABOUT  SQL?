@@ -1,0 +1,302 @@
+Pengertian MySQL
+MySQL adalah sebuah database management system (manajemen basis data) menggunakan perintah dasar SQL (Structured Query Language) yang cukup terkenal. Database management system (DBMS) MySQL multi pengguna dan multi alur ini sudah dipakai lebih dari 6 juta pengguna di seluruh dunia.
+
+mysql adalah logo
+Source: www.worldvectorlogo.com
+MySQL adalah DBMS yang open source dengan dua bentuk lisensi, yaitu Free Software (perangkat lunak bebas) dan Shareware (perangkat lunak berpemilik yang penggunaannya terbatas). Jadi MySQL adalah database server yang gratis dengan lisensi GNU General Public License (GPL) sehingga dapat Anda pakai untuk keperluan pribadi atau komersil tanpa harus membayar lisensi yang ada.
+
+Seperti yang sudah disinggung di atas, MySQL masuk ke dalam jenis RDBMS (Relational Database Management System). Maka dari itu, istilah semacam baris, kolom, tabel, dipakai pada MySQL. Contohnya di dalam MySQL sebuah database terdapat satu atau beberapa tabel.
+
+SQL sendiri merupakan suatu bahasa yang dipakai di dalam pengambilan data pada relational database atau database yang terstruktur. Jadi MySQL adalah database management system yang menggunakan bahasa SQL sebagai bahasa penghubung antara perangkat lunak aplikasi dengan database server.
+
+Sejarah MySQL
+MySQL adalah pengembangan lanjutan dari proyek UNIREG yang dikerjakan oleh Michael Monty Widenius dan TcX (perusahaan perangkat lunak asal Swedia).
+
+mysql adalah pendiri
+Michael Monty Widenius
+(source: www.wikipedia.org)
+Sayangnya, UNIREG belum terlalu kompatibel dengan database dinamis yang dipakai di website. TcX kemudian mencari alternatif lain dan menemukan perangkat lunak yang dikembangkan oleh David Hughes, yaitu miniSQL atau mSQL. Namun, ditemukan masalah lagi karena mSQL tidak mendukung indexing sehingga belum sesuai dengan kebutuhan TcX.
+
+Pada akhirnya muncul kerjasama antara pengembang UNIREG (Michael Monty Widenius), mSQL (David Hughes), dan TcX. Kerjasama ini bertujuan untuk mengembangkan sistem database yang baru, dan pada 1995 dirilislah MySQL seperti yang dikenal saat ini. Saat ini pengembangan MySQL berada di bawah Oracle.
+
+Kelebihan dan Kekurangan MySQL
+Setelah mempelajari pengertian MySQL dan sejarahnya, ada baiknya jika Anda juga mengetahui kelebihan dan kekurangannya juga.
+
+Meskipun menjadi database yang cukup populer, MySQL tentu mempunyai beberapa kelebihan dan kekurangan dibandingkan dengan database server lainnya. Salah satu kekurangan MySQL adalah performanya turun di saat beberapa database manajemen sistem mampu bekerja baik pada pengelolaan database yang besar.
+
+Adapun kelebihan dan kekurangan MySQL lain, di antaranya:
+
+Kelebihan MySQL
+MySQL mempunyai beberapa kelebihan yang bisa Anda manfaatkan untuk mengembangkan perangkat lunak yang andal seperti:
+
+1. Mendukung Integrasi Dengan Bahasa Pemrograman Lain.
+Website atau perangkat lunak terkadang dikembangkan dengan menggunakan berbagai macam bahasa pemrograman, jadi Anda tidak perlu khawatir jika menggunakan MySQL. Maka dari itu, MySQL bisa membantu Anda untuk mengembangkan perangkat lunak yang lebih efektif dan tentu saja lebih mudah dengan integrasi antara bahasa pemrograman.
+
+2. Tidak Membutuhkan RAM Besar.
+MySQL dapat dipasang pada server dengan spesifikasi  kecil. Jadi tidak perlu khawatir jika Anda hanya mempunyai server dengan kapasitas 1 GB karena Anda masih bisa menggunakan MySQL sebagai database Anda.
+
+3. Mendukung Multi User.
+MySQL dapat dipakai oleh beberapa user dalam waktu  bersamaan tanpa membuatnya crash atau berhenti bekerja. Ini dapat Anda manfaatkan ketika mengerjakan proyek yang sifatnya tim  sehingga seluruh tim dapat bekerja dalam waktu bersamaan tanpa harus menunggu user lain selesai.
+
+4. Bersifat Open Source
+MySQL adalah sistem manajemen database gratis. Meskipun gratis, bukan berarti database ini mempunyai kinerja buruk. Apalagi lisensi gratis yang dipakai adalah GPL di bawah pengelolaan Oracle sehingga kualitasnya termasuk baik. Selain itu, Anda juga tidak perlu khawatir jika terjadi masalah karena banyak komunitas dan dokumentasi yang membahas soal MySQL.
+
+5. Struktur Tabel yang Fleksibel.
+MySQL mempunyai struktur tabel yang mudah dipakai dan fleksibel. Contohnya saat MySQL memproses ALTER TABLE dan lain sebagainya. Jika dibandingkan dengan database lain seperti Oracle dan PostgreSQL, MySQL tergolong lebih mudah.
+
+6. Tipe Data yang Bervariasi.
+Kelebihan lain dari MySQL adalah mendukung berbagai macam data yang bisa Anda gunakan di MySQL. Contohnya float, integer, date, char, text, timestamp, double, dan lain sebagainya. Jadi manajemen database sistem ini sangat membantu Anda untuk mengembangkan perangkat lunak yang berguna untuk pengelolaan database di server.
+
+7. Keamanan yang Terjamin.
+Open source bukan berarti MySQL menyediakan keamanan yang buruk. Malah sebaliknya, MySQL mempunyai fitur keamanan yang cukup apik. Ada beberapa lapisan keamanan yang diterapkan oleh MySQL, seperti level nama host, dan subnetmask. Selain itu MySQL juga dapat mengatur hak akses user dengan enkripsi password tingkat tinggi.
+
+Kekurangan MySQL
+Sayangnya, meskipun memiliki segudang kelebihan, masih ada beberapa kelemahan yang dimiliki oleh MySQL sehingga Anda perlu mempertimbangkannya juga sebelum memakainya.
+
+1. Kurang Cocok untuk Aplikasi Game dan Mobile
+Anda yang ingin mengembangkan aplikasi game atau perangkat mobile ada baiknya jika mempertimbangkan lagi jika ingin menggunakan MySQL. Kebanyakan pengembang game maupun aplikasi mobile tidak menggunakannya karena memang database manajemen sistem ini masih kurang bagus dipakai untuk sistem aplikasi tersebut.
+
+2. Sulit Mengelola Database yang Besar
+Jika Anda ingin mengembangkan aplikasi atau sistem di perusahaan dengan database yang cukup besar, ada baiknya jika menggunakan database manajemen sistem selain MySQL. MySQL dikembangkan supaya ramah dengan perangkat yang mempunyai spesifikasi rendah, itulah mengapa MySQL tidak memiliki fitur yang lengkap seperti aplikasi lainnya
+
+3. Technical Support yang Kurang Bagus
+Sifatnya yang open source terkadang membuat aplikasi tidak menyediakan technical support yang memadai. Technical support MySQL diklaim kurang bagus. Hal ini membuat pengguna kesulitan. Apalagi jika pengguna mengalami masalah yang berhubungan dengan pengoperasian perangkat lunak tersebut dan membutuhkan bantuan technical support.
+
+Baca juga: Cara Mengatasi MySQL Server Has Gone Away di WordPress
+
+Anda sudah belajar pengertian, sejarah, kekurangan, dan kelebihan mysql. Anda bisa melanjutkan membaca untuk belajar MySQL dari dasar.
+
+Belajar MySQL Lengkap
+Mempelajari MySQL cukup mudah. Sesuai dengan pengertian MySQL yang sudah dibahas sebelumnya, bahwa sistem manajemen server ini menggunakan SQL sebagai bahasa pemrogramannya. Jadi akan lebih baik jika Anda harus memahami bagaimana SQL bekerja dan cara menggunakannya.
+
+Mengenal SQL
+SQL merupakan bahasa pemrograman yang perlu Anda pahami karena dapat merelasikan antara beberapa tabel dengan database maupun antar database. Ada tiga bentuk SQL yang perlu Anda ketahui, yaitu Data Definition Language (DDL), Data Manipulation Language(DML), dan Data Control Language (DCL).
+
+CREATE	Dipakai untuk membuat tabel dan database.
+DROP	Dipakai untuk menghapus database dan tabel.
+ALTER	Dipakai untuk mengubah struktur tabel yang sudah ada.
+
+Alter dapat mengganti field menggunakan perintah “Change”, menambahkan field menggunakan perintah “Add”, atau menghapus field menggunakan perintah “drop”, dan mengubah namanya menggunakan perintah “Rename”.
+Data Definition Language (DDL)
+DDL berguna pada saat Anda ingin mendefinisikan data di dalam database. Terdapat beberapa query yang dikelompokkan ke dalam DDL, yaitu:
+
+Argumen DDL di atas perlu Anda pahami karena merupakan dasar penggunaan SQL di bagian awal pembuatan database. Contohnya saja jika belum menjalankan perintah “CREATE”, Anda belum bisa melanjutkan penggunaan argumen yang lainnya. 
+
+Data Manipulation Language (DML)
+DML dapat Anda pakai setelah menjalankan perintah DDL. DML berfungsi untuk memanipulasi, mengubah, atau mengganti isi dari database (tabel) yang sudah ada.
+
+Terdapat beberapa perintah DML yang perlu Anda ketahui, yaitu:
+
+INSERT	Dipakai untuk memasukkan data ke dalam tabel pada database.
+UPDATE	Dipakai untuk mengubah data yang ada di dalam tabel pada database.
+DELETE	Dipakai untuk menghapus data di dalam tabel pada database.
+Baca juga: Cara Membuat CRUD dengan PHP dan MySQL
+
+Data Control Language (DCL)
+Jika Anda sudah mempunyai user dan ingin mengatur hak akses masing-masing user, Anda sebaiknya memahami berbagai macam jenis DCL dan cara penggunaannya. DCL berguna untuk memberikan hak akses database, mendefinisikan space, mengalokasikan space, dan melakukan audit penggunaan database.
+
+Terdapat beberapa perintah DCL yang perlu Anda ketahui, yaitu:
+
+GRANT	Dipakai untuk memberikan izin kepada user untuk mengakses database.
+REVOKE	Dipakai untuk membatalkan izin user untuk mengakses database.
+COMMIT	Dipakai untuk menetapkan penyimpanan pada database.
+ROOLBACK	Dipakai untuk membatalkan penyimpanan pada database.
+Baca juga: Cara Membuat Database MySQL di cPanel
+
+Cara Menginstall MySQL di Windows dan Linux
+MySQL server mendukung berbagai macam sistem operasi (cross-platform), khususnya Linux dan Windows. Proses instalasinya pun sangat mudah. Jika menggunakan Windows, Anda bisa menginstall XAMPP untuk menjalankan MySQL server yang di dalamnya sudah terdapat juga modul untuk menjalankan Apache, PHP, FileZilla, dan Tomcat.
+
+Sedangkan di Linux, Anda dapat menginstall MySQL secara terpisah atau menginstall LAMP (Linux, Apache, MySQL, PHP) yang sudah ada modul Apache dan PHP juga. Selain itu, XAMPP juga sudah tersedia di Linux. Jadi Anda bisa menyesuaikan proses instalasi sesuai dengan yang Anda nyaman dan suka.
+
+Cara Install MySQL Server di Windows
+Proses instalasi MySQL server menggunakan XAMPP sangat mudah.
+
+Langkah 1. Unduh file instalasi XAMPP
+
+Anda cukup mengunduh file instalasi XAMPP melalui halaman website apachefriends.org.
+
+Langkah 2. Install XAMPP
+
+Setelah selesai proses unduh, silakan eksekusi file instalasi XAMPP untuk menjalankan proses instalasi. Kemudian ikuti  instruksi yang ada.
+
+Langkah 3. Aktifkan MySQL server menggunakan GUI XAMPP
+
+Saat Anda selesai menjalankan proses instalasi akan muncul panel kontrol XAMPP. Klik “Start” pada modul Apache dan MySQL. Sampai di sini MySQL server sudah dapat berjalan dan sudah dapat dipakai untuk menjalankan perintah SQL.
+
+Anda bisa mengikuti artikel Cara Menggunakan MySQL di Windows untuk panduan selengkapnya.
+
+Cara Install MySQL Server di Linux
+Pada panduan cara install MySQL Server di Linux ini akan menggunakan Terminal sebagai contohnya. Anda bisa menggunakan cara ini atau jika ingin lebih mudah bisa langsung mengunduh file instalasi XAMPP dan menginstallnya seperti contoh Windows di atas.
+
+Baca juga: Cara Migrasi Database MySQL ke Server Lain di Ubuntu 14.04
+
+Langkah 1. Install Server Web Apache
+
+Sebelum Anda menjalankan proses instalasi, ada baiknya untuk memperbarui repositorinya terlebih dahulu. Untuk memperbarui repositori pada Linux caranya cukup mudah, Anda tinggal membuka Terminal kemudian mengetikkan baris komentar berikut:
+
+$ sudo apt-get update
+Kemudian jalankan perintah berikut untuk menginstall Apache.
+
+$ sudo apt-get install apache2
+Langkah 2. Mengecek Proses Instalasi Apache
+
+Jika proses instalasi Apache sudah selesai dan berhasil dijalankan, Anda bisa mengeceknya dengan mengakses web browser kemudian menuliskan alamat IP server atau alamat domain.
+
+http://<alamat_ip_address_server>
+Langkah 3. Instalasi MySQL
+
+Proses instalasi MySQL server di Linux cukup menggunakan satu perintah saja.
+
+$ sudo apt-get install mysql-server
+Proses instalasi ini akan meminta Anda untuk memasukkan username dan password untuk akses ke dalam MySQL server.
+
+Langkah 4. Pengecekan Instalasi MySQL
+
+Anda dapat memastikan apakah proses instalasi MySQL sudah berjalan baik atau belum dengan mengetikkan perintah di bawah ini.
+
+$ sudo systemctl status mysql
+Perintah di atas untuk mengecek apakah MySQL sudah berjalan atau belum. Jika belum, Terminal akan menampilkan status ‘Error’ atau ‘Failed’.
+
+Anda dapat mengikuti artikel Cara Instal LAMP di Linux untuk melihat panduan lengkapnya.
+
+Fungsi-fungsi di MySQL Server
+Jika MySQL sudah dapat berjalan dengan baik di server atau perangkat, ada beberapa fungsi yang bisa Anda jalankan menggunakan teks perintah (command prompt).
+
+Untuk masuk ke dalam MySQL server buka ‘CMD’ di Windows dan ‘Terminal’ di Linux.
+
+Login dan Logout MySQL Server
+Pengertian MySQL adalah database manajemen server yang cukup aman sehingga mempunyai aturan hak akses yang ketat. Jadi ketika ingin mengakses MySQL, Anda harus menggunakan password yang sudah diatur sebelumnya.
+
+Jika sebelumnya belum mengatur user untuk masuk ke dalam MySQL, Anda dapat menggunakan user root dengan mengetikkan perintah berikut.
+
+$ mysql -u root -p 
+apa itu mysql kode
+Opsi ‘-u’ merupakan tanda jika ingin login menggunakan user dengan menggunakan password yang dinyatakan dengan opsi ‘-p’.
+
+Jika ingin keluar, Anda hanya perlu mengetikkan perintah “quit” atau “\q”.
+
+Opsi di MySQL Server
+MySQL server menyediakan beberapa bantuan yang bisa Anda akses untuk mengubah dan mendokumentasikan server, yaitu dengan mengetikkan perintah “\h” atau “\?” ke dalam koneksi MySQL yang sedang aktif.
+
+Perhatian! Semua koneksi harus diakhiri tanda titik koma (;). Tanda ini sebagai petunjuk bahwa perintah atau query yang dimasukkan sudah selesai dan siap dieksekusi.
+
+mysql adalah kode
+Bantuan	\h atau \?	Dipakai untuk menampilkan opsi bantuan yang tersedia di dalam MySQL server.
+Clear	\c	Dipakai untuk menghapus atau membatalkan semua perintah yang berjalan pada satu perintah.
+Connect	\r	Dipakai untuk me-refresh koneksi ke database yang ada di dalam Server Host.
+Ego	\G	Dipakai untuk menampilkan data di dalam database server secara horizontal
+Go	\g	Dipakai untuk mengeksekusi perintah yang sudah dimasukkan.
+Tee	\T	Dipakai untuk mengatur lokasi file untuk perintah yang ingin didokumentasikan.
+Note	\t	Dipakai untuk mengakhiri perintah \T yang berguna untuk mendokumentasikan semua perintah yang sudah dijalankan.
+Print	\p	Dipakai untuk menampilkan seluruh perintah yang sudah dijalankan ke layar.
+Prompt	\R	Dipakai untuk mengubah ‘prompt’ sesuai dengan keinginan.
+Source	\.	Dipakai untuk mengeksekusi perintah dari luar yang berbentuk file .sql
+Use	\u	Dipakai untuk masuk ke dalam database (mirip dengan perintah “cd” di dalam bash script)
+Baca juga: Cara Optimasi Database MySQL dengan phpMyAdmin
+
+Perintah Administrasi di MySQL Server
+Pengertian MySQL server lainnya yaitu sebuah database manajemen sistem yang bersifat client/server. Jadi sangat penting untuk mengatur hak akses setiap user. Pengaturan hak akses ini supaya semua user mempunyai wewenang yang berbeda. Hak akses juga dapat mengatur user supaya hanya dapat mengakses database tertentu saja.
+
+Pengaturan hak akses di MySQL tentu akan sangat berguna apalagi karena perangkat lunak ini berjalan di jaringan publik yang kemungkinan semua user bisa mengaksesnya melalui internet.
+
+Sebelum mengatur hak akses, Anda harus membuat terlebih dahulu user MySQL selain ‘root’.
+
+Membuat User Baru
+Anda dapat menggunakan perintah SQL bernama “INSERT” untuk membuat user baru ke dalam database di MySQL server. Adapun sintaks yang dapat Anda gunakan contohnya:
+
+INSERT INTO user(host, user, password) VALUES(‘%’,’nama_user’,’password’);
+Perintah di atas akan menambahkan user ke dalam tabel ‘user’.
+
+Selain perintah di atas, Anda juga bisa memanfaatkan perintah “GRANT” untuk membuat user dan database. Langkah-langkahnya sebagai berikut.
+
+Langkah 1. Masuk ke Dalam MySQL Server Menggunakan User ‘Root’.
+
+Masuk ke dalam database MySQL dengan menggunakan perintah berikut ini.
+
+$ mysql -u root -p
+kode mysql adalah
+Kemudian masukkan password untuk user ‘root’ untuk masuk ke dalam MySQL server.
+
+Langkah 2. Membuat User Untuk Database.
+
+Anda dapat menggunakan contoh perintah berikut ini untuk membuat user untuk database.
+
+GRANT ALL PRIVILEGES ON *.* TO ‘username’@’localhost’ IDENTIFIED BY ‘password’;
+
+Perintah di atas akan membuat user dengan hak akses secara menyeluruh seperti ‘root’. Namun Anda juga dapat menyesuaikan batasan hak ases dari masing-masing user yang dibuat dengan menggunakan perintah “SELECT” seperti perintah berikut.
+
+GRANT SELECT ON *.* TO ‘username’@’localhost’;
+Contoh dari penggunaan GRANT dan SELECT seperti beberapa perintah di bawah ini.
+
+CREATE USER ‘yasin’@’localhost’ IDENTIFIED BY ‘password’;
+GRANT ALL ON db1.* TO ‘yasin’@’localhost’;
+GRANT SELECT ON db2.karyawan TO ‘yasin’@’localhost’;
+GRANT USAGE ON *.* TO ‘yasin’@’localhost’ WITH MAX_QUERIES_PER_HOUR 90;
+Setelah selesai menambahkan user, akhiri session menggunakan perintah “quit” atau “\q”.
+
+Langkah 3. Membuat Database Menggunakan User Baru.
+
+Masuk ke kembali ke dalam database server menggunakan user yang sudah dibuat.
+
+$ mysql -u username -p
+
+Kemudian buat database menggunakan perintah “CREATE”.
+
+CREATE DATABASE nama_database;
+
+Langkah 4. Memasukkan Tabel ke Dalam Database.
+
+Jika database sudah dibuat, Anda harus masuk ke dalam database tersebut untuk membuat tabel menggunakan perintah “USE”.
+
+USE karyawan;
+Setelah masuk, gunakan perintah “CREATE TABLE” untuk membuat tabel sesuai dengan kebutuhan data yang ingin dimasukkan, contohnya di bawah ini. 
+
+CREATE TABLE contoh( id smallint unsigned not null auto_increment, name varchar(20) not null, constraint pk_example primary key (id) );
+INSERT INTO contoh( id, name ) VALUES ( null, ‘Sample data’ );
+
+Memberikan Hak Akses ke User
+Jika sudah membuat user tetapi lupa untuk membuat hak akses, Anda masih dapat mengubahnya dan memberikan akses menggunakan perintah “GRANT”. Contoh penggunaan sintaksnya seperti berikut.
+
+Langkah 1. Melihat Seluruh User yang Sudah Ada.
+
+Anda dapat melihat seluruh user yang ada di dalam MySQL server menggunakan perintah “SELECT’ seperti baris perintah berikut ini.
+
+SELECT user, host from mysql.user;
+
+Langkah 2. Melihat Hak Akses User.
+
+Jika sudah menemukan user yang dimaksud, Anda bisa mengecek hak akses yang saat ini berlaku untuk user tersebut menggunakan perintah “GRANT”.
+
+show grants for ‘user’@’host’;
+
+Langkah 3. Membatalkan Hak Akses User.
+
+Sebelum mengatur ulang hak akses baru untuk user yang sudah ada, terlebih dahulu Anda harus membatalkan hak akses yang berlaku saat ini menggunakan perintah “REVOKE”.
+
+revoke all privileges on *.* from ‘user’@’host’;
+
+Langkah 4. Memberikan Hak Akses.
+
+Berikan kembali hak akses ke user yang sudah dihapuskan hak aksesnya menggunakan perintah “GRANT” dengan beberapa opsi yang berlaku seperti ‘SELECT’, ‘INSERT’, ‘UPDATE’, atau ‘DELETE’.
+
+GRANT SELECT, INSERT, UPDATE, DELETE ON `db`.* TO ‘user’@’host’;
+
+Langkah 5. Melakukan flush.
+
+Setelah selesai jangan lupa untuk melakukan flush. Perintah ini berguna untuk memperbarui dan menerapkan aturan baru yang berlaku.
+
+flush privileges;
+Baca Juga: MariaDB vs MySQL: Manakah yang Harus Digunakan?
+
+Kesimpulan
+MySQL adalah sebuah sistem manajemen database yang berguna untuk mengelola database di dalam website. Sistem manajemen database dengan mysql mempunyai banyak fitur. Selain itu, proses instalasi sampai dengan penggunaannya sangat mudah sehingga bagi pengguna yang masing awam pun mungkin akan cepat untuk memahaminya.
+
+MySQL menggunakan bahasa pemrograman SQL untuk bekerja. Bahasa pemrograman ini mempunyai beberapa fungsi dan perintah yang dapat dipakai untuk menambahkan, mengubah, dan mengelola berbagai macam tipe data seperti integer, float, string, dan semacamnya.
+
+Ada berbagai tutorial terkait MySQL yang telah kami sediakan untuk Anda. Silakan Anda cek artikel di bawah ini:
+
+Cara Remote MySQL di cPanel dengan Mudah
+Cara Optimasi Database MySQL dengan PHPMyAdmin
+Cara Import Database MySQL dengan Mudah
+Cara Membuat Database MySQL (Terlengkap)
+Semoga artikel pengertian MySQL, fungsi, cara kerja, dan panduan singkat belajar MySQL dari dasar ini bermanfaat untuk Anda. Jika masih ada pertanyaan atau tambahan lain dari Anda, silakan tinggalkan melalui kolom komentar yang tersedia di bawah ini. Jangan lupa subscribe untuk mendapatkan informasi mengenai dunia bisnis, teknologi, dan digital marketing dari kami.
